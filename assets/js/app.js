@@ -1,3 +1,17 @@
+var mainApp = angular.module('mainApp', ['ngRoute']);
+
+mainApp.config(function($routeProvider){
+  $routeProvider
+
+  .when ('/searchpage', {
+    templateUrl: 'html/searchpage.html',
+    css: 'assets/css/styles.css',
+    controller: 'myCtrl'
+  })
+
+
+
+
 // This app based on http://tutorialzine.com/2013/08/learn-angularjs-5-examples/
 
 // Defining a new module.  Dependencies would go into the array, if there were any.
