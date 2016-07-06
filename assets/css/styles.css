@@ -1,0 +1,21 @@
+.yogadude{
+  width:35px;
+  margin:auto 0;
+}
+
+.title{
+  font-family: 'Istok Web', sans-serif;
+  size 45px;
+  color: red;
+}
+
+.instructions{
+  font-family: 'Istok Web', sans-serif;
+  size 25px;
+  color: blue;
+}
+
+.searchBar{
+  background-color: pink;
+  width:400px;
+}
